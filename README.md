@@ -2,9 +2,10 @@
 
 ## Theo TODOS:
 - [x] Add macros to add everything needed for MT
-- [x] Reorganizate Source *WIP, PACKAGES NEED TO BE FIXED*
+- [x] Reorganizate Source *WIP, NEED TO REWRITE ALL THE FILE IMPORTS*
 - [ ] Better H-Script Support
-- [x] Add Standalone-Adapters (to make porting easier) *WIP, IMPLEMENTATION IS USELESS RN, TODO: MAKE A MACRO TO CHOISE THE ADAPTER*
+- [x] Add Standalone-Adapters (to make porting easier) *WIP, IMPLEMENTATION DONE BUT IS USELESS RN, TODO: MAKE ALL THE CODE WORK WITH THE ADAPTER*
+- [x] Client Plugin Choiser Macro
 - [ ] Making API
 
 ## Features
