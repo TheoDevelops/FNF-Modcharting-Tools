@@ -1,4 +1,4 @@
-package modcharting;
+package modcharting.tools.core;
 
 import flixel.util.FlxDestroyUtil.IFlxDestroyable;
 import flixel.util.FlxPool;

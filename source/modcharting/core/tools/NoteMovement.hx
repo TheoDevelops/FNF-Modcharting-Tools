@@ -1,4 +1,4 @@
-package modcharting;
+package modcharting.core.tools;
 
 #if LEATHER
 import states.PlayState;

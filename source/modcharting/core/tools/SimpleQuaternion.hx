@@ -1,8 +1,10 @@
-package modcharting;
+package modcharting.core.tools;
 
 import flixel.math.FlxAngle;
 import openfl.geom.Vector3D;
 import flixel.math.FlxMath;
+
+// TODO, OPTIMIZE CALCULATIONS AND MAKE THIS CLASS EXTERN
 
 typedef Quaternion = 
 {
@@ -11,7 +13,6 @@ typedef Quaternion =
     var z:Float;
     var w:Float;
 };
-//me whenthe
 class SimpleQuaternion
 {
     //no more gimbal lock fuck you

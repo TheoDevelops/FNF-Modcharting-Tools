@@ -1,4 +1,4 @@
-package modcharting;
+package modcharting.core.tools;
 
 import flixel.tweens.FlxEase;
 import flixel.math.FlxMath;

@@ -1,4 +1,4 @@
-package modcharting.core.macros;
+package modcharting.core;
 
 import modcharting.core.meta.Modifier;
 

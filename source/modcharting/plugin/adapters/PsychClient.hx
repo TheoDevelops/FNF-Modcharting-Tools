@@ -1,4 +1,4 @@
-package modcharting.plugin;
+package modcharting.plugin.adapters;
 
 import haxe.exceptions.NotImplementedException;
 

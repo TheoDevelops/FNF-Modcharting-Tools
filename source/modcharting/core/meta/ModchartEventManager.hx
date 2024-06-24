@@ -1,4 +1,4 @@
-package modcharting;
+package modcharting.core.meta;
 
 #if LEATHER
 import game.Conductor;
