@@ -1,15 +1,15 @@
 package modcharting.plugin;
 
-import modcharting.core.IClientPlugin;
+import modcharting.plugin.StandaloneClient;
 
 class Client
 {
-    public static var instance(default, set):IClientPlugin = null;
+    public static var instance(default, set):
     
     // @:isVar
     // private static var _logged(get, null):Bool = false;
     
-    inline static public function set_instance(_plugin:IClientPlugin)
+    inline static public function set_instance(_plugin:StandaloneClient)
     {
         if (instance == null)
         {

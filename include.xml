@@ -8,4 +8,7 @@
 	<haxeflag name="--macro" value="addMetadata('@:build(modcharting.core.ModchartDefines.injectSkewedFielda())', 'modcharting.plugin.Client.getNoteClass()')" />
 	<haxeflag name="--macro" value="addMetadata('@:build(modcharting.core.ModchartDefines.buildNote())', 'modcharting.ModchartUtil.NoteClass')" />
 	<haxeflag name="--macro" value="addMetadata('@:build(modcharting.core.ModchartDefines.buildFunkinLua())', 'psychlua.FunkinLua')" if="PSYCH && PSYCHVERSION >= '0.7.0'" />
+	
+	<define name="ENGINE" value="PSYCH">
+	<define name="ENGINE_VERSION" value="0.7.0">
 </project>
