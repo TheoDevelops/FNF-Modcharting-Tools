@@ -9,7 +9,8 @@ import modcharting.plugin.StandaloneClient;
 class ClientDefiner
 {
   public static var PLUGINS_ROOT:String = 'modcharting.plugin.adapters.';
-  public static var ENGINE_VERSION:Null<String> = null;
+  // #if ENGINE_VERSION
+  //  public static var ENGINE_VERSION:Null<String> = null;
   
   public static function buildClient():Array<Field>
   {
@@ -28,7 +29,7 @@ class ClientDefiner
     fields.push({
       name: "instance",
       access: [APublic, AStatic],
-      kind: FVar(macro: Class<StandaloneClient>, macro $v{client}),
+      kind: FVar(macro: StandaloneClient, macro $v{ new client()}),
       pos: Context.currentPos()
     });
     return fields;

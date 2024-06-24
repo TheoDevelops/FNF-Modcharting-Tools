@@ -9,6 +9,8 @@ import modcharting.core.interfaces.IClientPlugin;
  */
 class StandaloneClient implements IClientPlugin
 {
+    public function new() {}
+    
     public function getNoteClass():Class<FlxBasic>
     {
         throw new NotImplementedException();
