@@ -1,5 +1,7 @@
 # FNF Modcharting Tools
 
+## THIS CODE ISNT WORK, IS JUST A CONCEPT I MADE ON MY PHONE (cuz my pc was broken), IM ACTUALLY WORKING ON THIS ON PRIVATE NOW ON MY PC
+
 ## Theo TODOS:
 - [x] Add macros to add everything needed for MT
 - [x] Reorganizate Source *WIP, NEED TO REWRITE ALL THE FILE IMPORTS*
